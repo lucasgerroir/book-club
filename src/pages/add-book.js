@@ -5,7 +5,7 @@ import styled from "styled-components"
 
 let fileReader;
 
-if(typeof window !== undefined) {
+if(typeof window !== 'undefined') {
     fileReader = new FileReader();
 }
 
